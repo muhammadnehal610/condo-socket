@@ -48,7 +48,7 @@ io.on("connection", (socket) => {
 });
 
 app.get("/", (req, res) => {
-  res.send("WebSocket Server is running");
+  res.send("WebSocket Server is running in Node js");
 });
 
 // Emit general notification
